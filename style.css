@@ -3,19 +3,33 @@
     padding: 0;
     box-sizing: border-box;
 
+<<<<<<< HEAD
+    /* Fontes */
+    font-family: "Ubuntu", sans-serif;
+    font-size: 12px;
+
+    /*  */
+    
+=======
     /* Fontes Google} */
     font-family: 'Ubuntu', sans-serif;
     font-size: 12px;
 
     /*  */
     border: solid 1px blue;
+>>>>>>> 2e3de04fa843d80bd7a512a71f38780c5e2a3e27
 }
 
 .container-pai {
     width: 200px;
     height: 200px;
+<<<<<<< HEAD
+    border: solid 1px #4c4c4d;
+    /* FlexBox */
+=======
 
     /* Flexbox */
+>>>>>>> 2e3de04fa843d80bd7a512a71f38780c5e2a3e27
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -25,10 +39,17 @@
 .input-text {
     width: 160px;
     padding: 1px 3px;
+<<<<<<< HEAD
+    outline: None;
+}
+
+.container-button {
+=======
     outline: none;
 }
 
 .container-button{
+>>>>>>> 2e3de04fa843d80bd7a512a71f38780c5e2a3e27
     width: 160px;
     padding: 5px 0;
 
@@ -37,10 +58,40 @@
     justify-content: space-between;
 }
 
+<<<<<<< HEAD
+.btn {
+    width: 77px;
+    padding: 2px;
+    border-radius: 2px;
+    border: solid 1px #4c4c4d;
+    cursor: pointer;
+}
+
+/* Configuração do Cabeçalho, Resultado e Rodapé */
+.container-logo {
+    display: flex;
+    margin: 5px
+}
+
+.container-logo img {
+    margin-right:10px;
+}
+
+.resultado{
+    width: 160px;
+    height: 80px;
+    resize: none;
+}
+
+.rodape {
+    text-align: center;
+    color: #4c4c4d;
+=======
 .btn{
     width: 77px;
     padding: 2px;
     border-radius: 3px;
     border: solid 1px #4c4c4d;
     cursor: pointer;
+>>>>>>> 2e3de04fa843d80bd7a512a71f38780c5e2a3e27
 }

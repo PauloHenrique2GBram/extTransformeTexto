@@ -44,3 +44,7 @@ document.getElementById("btnPrimeiraMaiuscula")?.addEventListener('click', funct
     resultado.innerText = out
 })
 
+document.getElementById("btnLixeira")?.addEventListener('click', function () {
+    document.querySelector("#input-text").value = ''
+    document.querySelector("#resultado").innerText = ''
+})

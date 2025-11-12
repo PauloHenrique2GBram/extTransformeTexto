@@ -1,9 +1,20 @@
 {
-    "name": "Transforme Texto",
-    "version": "1.0",
-    "manifest_version": 3,
-    "description": "Extensão para transformar seus textos em letras MAIÚSCULAS e minúsculas.",
-    "action": {
-        "default_popup":"index.html"
+  "name": "Transforme Texto",
+  "version": "1.0",
+  "manifest_version": 3,
+  "description": "Extensão para transformar seus textos em letras MAIÚSCULAS e minúsculas.",
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": {
+      "16": "icons/Logo tT Vetor 16.png",
+      "48": "icons/Logo tT Vetor 48.png",
+      "128": "icons/Logo tT Vetor 128.png"
     }
+  },
+  "icons": {
+    "16": "icons/Logo tT Vetor 16.png",
+    "48": "icons/Logo tT Vetor 48.png",
+    "128": "icons/Logo tT Vetor 128.png",
+    "300": "icons/Logo tT Vetor 300.png"
+  }
 }
